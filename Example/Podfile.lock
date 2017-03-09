@@ -1,0 +1,16 @@
+PODS:
+  - PodSpecString (0.1.0)
+
+DEPENDENCIES:
+  - PodSpecString (from `../`)
+
+EXTERNAL SOURCES:
+  PodSpecString:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodSpecString: 90e59b212b20fac3e8198bdefd7e2f7b16d9fa2f
+
+PODFILE CHECKSUM: 0c75dcf97ec2ba8dfa0ad91f937946039125663a
+
+COCOAPODS: 1.1.1

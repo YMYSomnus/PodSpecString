@@ -1,0 +1,6 @@
+framework module Pods_PodSpecString_Example {
+  umbrella header "Pods-PodSpecString_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
