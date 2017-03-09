@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PodSpecString_Example' do
+  pod 'PodSpecString', :path => '../'
+
+  target 'PodSpecString_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
