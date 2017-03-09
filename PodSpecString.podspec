@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PodSpecString'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PodSpecString.'
+  s.summary          = 'PodSpecString abort NSString handle'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,27 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/731759575@qq.com/PodSpecString'
+  s.homepage         = 'https://github.com/YMYSomnus/PodSpecString'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '731759575@qq.com' => 'yangmingyue713@jk.cn' }
-  s.source           = { :git => 'https://github.com/731759575@qq.com/PodSpecString.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/YMYSomnus/PodSpecString.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PodSpecString/Classes/**/*'
-  
   # s.resource_bundles = {
   #   'PodSpecString' => ['PodSpecString/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.subspec 'NSString' do |ss|
+    ss.ios.deployment_target = '7.0'
+    ss.source_files = 'NSString/**/*'
+    ss.dependency 'MJExtension', '= 3.0.13'
+    ss.resource = ['NSString/Resource/*']
+    ss.library = 'z'
+  end
+# s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

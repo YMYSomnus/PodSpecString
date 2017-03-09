@@ -1,5 +1,9 @@
 PODS:
-  - PodSpecString (0.1.0)
+  - MJExtension (3.0.13)
+  - PodSpecString (0.1.0):
+    - PodSpecString/NSString (= 0.1.0)
+  - PodSpecString/NSString (0.1.0):
+    - MJExtension (= 3.0.13)
 
 DEPENDENCIES:
   - PodSpecString (from `../`)
@@ -9,7 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PodSpecString: 90e59b212b20fac3e8198bdefd7e2f7b16d9fa2f
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  PodSpecString: 65b0ef87de379823e7f6ed768be25270fa43aff1
 
 PODFILE CHECKSUM: 0c75dcf97ec2ba8dfa0ad91f937946039125663a
 
