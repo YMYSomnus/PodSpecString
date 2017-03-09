@@ -1,7 +1,9 @@
 PODS:
   - MJExtension (3.0.13)
   - PodSpecString (0.1.0):
+    - PodSpecString/NSAttributedString (= 0.1.0)
     - PodSpecString/NSString (= 0.1.0)
+  - PodSpecString/NSAttributedString (0.1.0)
   - PodSpecString/NSString (0.1.0):
     - MJExtension (= 3.0.13)
 
@@ -14,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  PodSpecString: 65b0ef87de379823e7f6ed768be25270fa43aff1
+  PodSpecString: 9ed0e9e1115a1598aadcff01f745ddccfdf19fbc
 
 PODFILE CHECKSUM: 0c75dcf97ec2ba8dfa0ad91f937946039125663a
 

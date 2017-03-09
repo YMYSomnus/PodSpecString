@@ -41,6 +41,12 @@ TODO: Add long description of the pod here.
     ss.resource = ['NSString/Resource/*']
     ss.library = 'z'
   end
+
+  s.subspec 'NSAttributedString' do |as|
+    as.ios.deployment_target = '7.0'
+    as.source_files = 'NSAttributedString/**/*'
+  end
+
 # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
